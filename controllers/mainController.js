@@ -4,6 +4,6 @@ app.controller('mainController', ['$scope', function($scope) {
         $scope.list.push($scope.addToDo);
     }
     $scope.removeItem = function() {
-        $scope.list.pop()
+        $scope.list.pop();
     }
 }])
