@@ -6,7 +6,9 @@
   </head>
   <body ng-app="ToDoList">
     <div ng-controller="mainController">
-      
+      <div ng-repeat="item in list">
+        <li> {{ item }} </li>
+      </div>
     </div>    
     <script src="/app.js"></script>
     <script src="/controllers/mainController.js"></script>
