@@ -22,6 +22,7 @@ In this ToDo list app, I have used the Angular controller attribute.
 - Create controller with a scope object 
 - Create a list with an empty array, on the scope object
 - Create addItem and assign an anonymous function to access the list, on the scope object, and push items to it, using addToDo on the scope object
+- Create removeItem and assign an anoymous function to access the list, on the scope object, and pop items from the array, using removeToDo on the scope object
 
 This is about it.
 
